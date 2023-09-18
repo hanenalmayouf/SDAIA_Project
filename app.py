@@ -7,19 +7,19 @@ from PIL import Image
 import io
 import numpy as np
 
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background: url("url_goes_here")
-    }
-   .sidebar .sidebar-content {
-        background: url("url_goes_here")
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     """
+#     <style>
+#     .reportview-container {
+#         background: url("url_goes_here")
+#     }
+#    .sidebar .sidebar-content {
+#         background: url("url_goes_here")
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
 #Add title
 st.title("SALECK")
 # Load the model
